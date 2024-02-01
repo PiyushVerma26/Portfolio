@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+ font-family: 'works';
+ src: url('../src/Font/Workbench-Regular-VariableFont_BLED\,SCAN.ttf') format('truetype');
+}
+
+@font-face {
+ font-family: 'rubi';
+ src: url('../src/Font/RubikGlitchPop-Regular.ttf') format('truetype');
+}
+
+@font-face {
+ font-family: 'lucky';
+ src: url('../src/Font/LuckiestGuy-Regular.ttf') format('truetype');
+}
