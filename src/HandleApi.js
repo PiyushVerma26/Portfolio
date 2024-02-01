@@ -1,4 +1,4 @@
-const accessToken = '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';
+const accessToken = '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';
 
 export default async function handleApi() {
   try {
@@ -9,6 +9,8 @@ export default async function handleApi() {
     });
 
     if (!response.ok) {
+
+      console.log(response)
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
 
